@@ -12,6 +12,8 @@ Npm.depends({
 });
 
 Package.onUse(function(api) {
+  api.use('webapp');
+
   api.use([
     'jsx@0.2.3',
     'minimongo@1.0.0',
